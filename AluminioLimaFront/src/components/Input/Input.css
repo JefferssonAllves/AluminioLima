@@ -1,12 +1,12 @@
-.container{
+.container-input{
   display: flex;
   flex-direction: column;
-  margin: var(--margin-components);
+  margin-top: var(--margin-top-components);
 }
 .input-label{
 }
 .input-text{
-  border-radius: var(--border-components);
+  border-radius: var(--border-radius-components);
   margin-top: var(--margin-top-input);
   padding: var(--padding-input);
   font-size: var(--text-size-input);

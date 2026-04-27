@@ -1,10 +1,17 @@
 :root{
-  --margin-components: 15px;
-  --border-components: 7px;
+  --margin-components: 20px;
+  --margin-top-components: 15px;
+
+  --padding-components: 20px;
+
+  --border-radius-components: 7px;
 
 
   /* INPUT */
   --margin-top-input: 5px;
-  --padding-input: 7px;
+  --padding-input: 5px;
   --text-size-input: 15px;
+
+  /* BUTTON */
+  --button-height: 30px;
 }

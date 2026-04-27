@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api.js";
 
-export function useApi(url) {
+export function apiGet(url) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
