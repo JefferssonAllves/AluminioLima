@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: var(--margin-components);
+}
+.input-label{
+}
+.input-text{
+  border-radius: var(--border-components);
+  margin-top: var(--margin-top-input);
+  padding: var(--padding-input);
+  font-size: var(--text-size-input);
+}

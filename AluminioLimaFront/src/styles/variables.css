@@ -1,0 +1,10 @@
+:root{
+  --margin-components: 15px;
+  --border-components: 7px;
+
+
+  /* INPUT */
+  --margin-top-input: 5px;
+  --padding-input: 7px;
+  --text-size-input: 15px;
+}
