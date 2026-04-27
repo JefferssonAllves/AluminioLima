@@ -1,10 +1,10 @@
 import "./Input.css"
 
-const InputText = ({ label, name, onChange}) => {
+const InputText = ({ label, onChange}) => {
   return (
     <div className="container-input">
-      <label className="input-label" name={name}>{label}</label>
-      <input className="input-text" type="text" name={name} onChange={onChange}/>
+      <label className="input-label">{label}</label>
+      <input className="input-text" type="text" onChange={onChange}/>
     </div>
   );
 };
