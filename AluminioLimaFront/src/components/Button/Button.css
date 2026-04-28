@@ -1,0 +1,6 @@
+.button{
+  border-radius: var(--border-radius-components);
+  margin-top: var(--margin-top-components);
+  width: 100%;
+  height: var(--button-height);
+}

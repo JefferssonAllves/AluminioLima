@@ -1,0 +1,8 @@
+.containerForm{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-components);
+}

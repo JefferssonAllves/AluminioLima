@@ -1,18 +1,21 @@
-import { useEffect } from "react";
-import api from "./services/api.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
+import Cadastrar from "./pages/Cadastro/Cadastro";
 
 function App() {
-  useEffect(() => {
-    api.get("/teste/")
-      .then(response => {
-        console.log("Resposta da API:", response.data);
-      })
-      .catch(error => {
-        console.error("Erro:", error);
-      });
-  }, []);
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cadastrar" element={<Cadastrar />} />
+        <Route path="/login" element={<Login />} />
 
-  return <h1>Testando API...</h1>;
+
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
